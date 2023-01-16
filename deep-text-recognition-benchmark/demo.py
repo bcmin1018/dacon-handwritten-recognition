@@ -94,9 +94,9 @@ def demo(opt):
                 print(f'{img_name:25s}\t{pred:25s}')
                 log.write(f'{img_name:25s}\t{pred:25s}\n')
             log.close()
-        submit = pd.read_csv('./sample_submission.csv')
+        submit = pd.read_csv('../sample_submission.csv')
         submit['label'] = rows
-        submit.to_csv('./submission.csv', index=False)
+        submit.to_csv('../submission.csv', index=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
