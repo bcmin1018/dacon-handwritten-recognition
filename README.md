@@ -1,9 +1,12 @@
 # 2023 교원그룹 AI 챌린지 - 손글씨 인식 AI 모델 개발
 
 ## 1. 작업 환경  
-Ubuntu 18.04.6 LTS  
-Cuda 11.2, V11.2.152
-- 리눅스 환경에서 작업하는 것을 추천.  
+ Ubuntu 18.04.6 LTS  
+ Cuda 11.2, V11.2.152
+ 리눅스 환경에서 작업하는 것을 추천.
+ public Accuracy score: 0.87367 (상위 6.3%)
+ private Accuracy score: 0.87499 (상위 5.8%)
+
 
 ## 2. Train
 python3 train.py \
