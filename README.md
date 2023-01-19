@@ -1,1 +1,3 @@
-![pytorch](https://user-images.githubusercontent.com/101251439/213383154-39b10b5f-7a73-4a7b-85b4-098d94b7b8f7.svg)
+1. 작업 환경 
+Ubuntu 18.04.6 LTS  
+Cuda 11.2, V11.2.152
