@@ -24,8 +24,6 @@ python3 train.py \
 	--saved_model '사전 학습 모델' \
 	--PAD \
 	--FT
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6ccef1b-c16c-4308-8543-b1109a68cfe4/Untitled.png)
-  
   
   
 ## 3. Predict
@@ -39,4 +37,3 @@ python3 demo.py \
 	--imgW 224 \
 	--PAD \
 	--saved_model '훈련 모델 경로'
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb529402-5981-4e43-9369-cbb645ad7cb2/Untitled.png)
